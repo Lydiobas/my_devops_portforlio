@@ -13,6 +13,16 @@ The .git directory is like the brain of a Git project. It keeps track of all you
 if it is not available then you must add a remote
 ***git remote add origin https://github.com/Lydiobas/my_devops_portforlio.git *** example
 ***git git push --set-upstream origin*** Setting an upstream branch is not strictly necessary, but it is highly convenient. It allows you to use simple git push and git pull commands without additional parameters, streamlining your workflow. If you don’t set it, you’ll need to specify the remote and branch each time you push or pull.
+***git checkout -b feature(name of branch)*** It will checkout a new branch
+***git branch*** To verify the branches available
+***git checkout main*** To switch between branches
+***git merge git rebase or git cherry-pick*** To merge branches
+***git cherry pick and the commit id will merge*** This is easy when there are less comits so 
+***git merge or git rebase***  works for a large commit
+***git log --oneline*** To show the commit ids in a compressed format
+
+
+
 
 
 Ready to push changes to the git repo
