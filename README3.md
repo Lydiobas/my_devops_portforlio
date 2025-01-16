@@ -1,0 +1,3 @@
+(Virtual Machines)
+virtualization came in place to solve the problems of inefficiency. To do this 
+organisations will have to buy a server and on that server will install a hypervisor. A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
