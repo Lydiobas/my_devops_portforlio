@@ -15,4 +15,9 @@ if it is not available then you must add a remote
 
 Ready to push changes to the git repo
 1 = git clone and paste the url of the git repo
-2 = 
+2 = git status 
+3 = git add .
+4 = git commit -m ""
+5 = git remote -v
+6 = git git push --set-upstream origin main
+7 = git push 
