@@ -30,3 +30,21 @@ These components work together to track changes, manage branches, and store the 
 
 4 = git status is used to check the status of files.
 5 = git diff is used to check what changes have been made 
+
+6 = git reset --hard commit id is a very useful command and use it with causion. since it erases and deletes the commits made,
+9 = git log will display the ids of the commits made
+in case you ran git reset --hard commit id  accidentally. you can run git 
+7 = git reflog to view and then take note of the hash tag
+8 = run git reset --hard (hash tag ) to recover what has been delete with command on line 6
+
+The above talks about git versioning forn in the local system 
+
+
+GIT BRANCHING STRATEGY
+We need branches in github repo because we want to make sure changes is ok before merging to the exixting branch and delete the testing branch
+
+
+steps include.
+1 = create an account with github
+2 = create a git repository
+
