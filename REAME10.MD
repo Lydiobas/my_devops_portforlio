@@ -18,8 +18,15 @@ if it is not available then you must add a remote
 ***git checkout main*** To switch between branches
 ***git merge git rebase or git cherry-pick*** To merge branches
 ***git cherry pick and the commit id will merge*** This is easy when there are less comits so 
-***git merge or git rebase***  works for a large commit
+***git merge or git rebase***  works for a large commit ***git rebase is the best in a linear way***
+***git merge feauture*** To merge main and feature
 ***git log --oneline*** To show the commit ids in a compressed format
+***git  branch -d feature*** To delete branch
+**NB when there is a conflict it means two files have thesame content and one must be modified.
+**NB git merge will display at the top 
+**NB git rebase will display at the bottom in a linear way that ease understanding
+
+
 
 
 
